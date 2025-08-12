@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.cont{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color: black;
+    color: white;
+    letter-spacing: .5px;
+}
+.cont i{
+    font-size: 20px;
+}
+/* end */
+
+.home{
+    background-color: rgba(105, 105, 105, 0.7);
+    height: 15vh;
+    background-image: url(./Asserts/images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    color: white;
+}
+.home header{
+    display: flex;
+    color: white;
+}
+.home header h1{
+    padding: 20px;
+}
+.home header ul{
+    display: flex;
+    list-style: none;
+    margin-left: 600px;
+}
+.home header ul li{
+    padding: 40px 15px 15px;
+}
+.home header ul li a{
+    text-decoration: none;
+    color: white;
+}
+.home header ul li:hover{
+    background-color: black;
+}
+.home header ul li a:hover{
+    background-color: black;
+    width: 200px;
+}
+.home div{
+    width: 600px;
+    margin: 30px;
+}
+.home div h1{
+    font-size: 50px;
+}
+.home div h1:nth-child(2){
+    color: yellow;
+    margin-top: 10px;
+}
+.home div p{
+    margin: 25px 0px;
+    font-size: 20px;
+}
+.home div button{
+    width: 180px;
+    height: 55px;
+    border: none;
+    font-size: 17px;
+}
+.home div .btn2{
+    margin-left: 20px;
+    color: white;
+    background-color: rgb(255, 255, 46);
+}
+.home div .btn1:hover{
+    border: 1px solid white;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+.home div .btn2:hover{
+    border: 1px solid white;
+    border-color: yellow;
+    background-color: rgba(0, 0, 0, 0);
+    color: yellow;
+}
+/* home end */
+.about{
+    height: 85vh;
+    position: relative;
+}
+.about div:nth-child(1) img{
+    margin: 85px 30px;
+    height: 400px;
+}
+.about div:nth-child(2){
+    width: 600px;
+    background-color: white;
+    padding: 15px;
+    position: absolute;
+    top: 110px; 
+    left: 570px;
+    height: 340px;
+}
+.about div:nth-child(2) h1{
+    font-size: 30px;
+    margin: 25px 10px 0px;
+    padding: 5px;
+}
+.about div:nth-child(2) p:nth-child(2){
+    width: 40px;
+    height: 8px;
+    background-color: yellow;
+    border-radius: 10px;
+    margin-left: 13px;
+}
+.about div:nth-child(2) p:nth-child(3){
+    margin: 20px 10px 10px;
+    font-size: 18px;
+    letter-spacing: .3px;
+}
+.about div:nth-child(2) button{
+    padding: 15px 40px;
+    margin: 15px;
+    border: none;
+    background-color: yellow;
+    color: white;
+    font-size: 16px;
+}
+.about div:nth-child(2) button:hover{
+    border: 1px solid yellow;
+    background-color: white;
+    color: yellow;   
+}
+/* end about */
+.services{
+    background-color: black;
+    height: 107vh;
+}
+.services h1:nth-child(1){
+    text-align: center;
+    color: white;
+    padding: 90px 0px 10px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.services p:nth-child(2){
+    width: 40px;
+    height: 8px;
+    background-color: yellow;
+    border-radius: 10px;
+    margin-left: 660px;
+    margin-bottom: 60px;
+}
+.services .servcont{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+.services .servcont div{
+    width: 380px;
+    height: 380px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+.services .servcont div h1{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.services .servcont div img{
+    height: 80px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+.services .servcont div p{
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.services .servcont div button{
+    padding: 10px 30px;
+}
+.services .servcont div button{
+    padding: 15px 45px;
+    margin: 15px;
+    border: none;
+    background-color: yellow;
+    color: white;
+    font-size: 16px;
+}
+.services .servcont div button:hover{
+    border: 1px solid yellow;
+    background-color: white;
+    color: yellow;   
+}
+/* end services */
+.touch{
+    background-image: url(./Asserts/images/contact-bg.jpg);
+    background-color: rgba(105, 105, 105, 0.8);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    height: 115vh;
+}
+.touch h1:nth-child(1){
+    padding: 90px 0px 0px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+.touch p:nth-child(2){
+    width: 40px;
+    height: 8px;
+    background-color: yellow;
+    border-radius: 10px;
+    margin: 10px 0px 60px 650px;
+}
+.touch div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.touch div input{
+    margin-top: 10px;
+    width: 650px;
+    height: 50px;
+    padding-left: 20px;
+}
+.touch div textarea{
+    margin-top: 10px;
+    width: 650px;
+    height: 120px;
+    padding-left: 20px;
+    padding-top: 45px;
+}
+.touch input::placeholder{
+    color: black;
+    font-size: 15px;
+}
+.touch textarea::placeholder{
+    color: black;
+    font-size: 15px;
+}
+.touch button{
+    padding: 15px 55px;
+    margin: 15px;
+    border: none;
+    background-color: yellow;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.touch button:hover{
+    border: 1px solid yellow;
+    background-color: rgba(0, 0, 0, 0);
+    color: yellow;   
+}
+/* end touch */
+.guards{
+    height: 140vh;
+    text-align: center;
+    position: relative;
+}
+.guards h1:nth-child(1){
+    padding: 90px 0px 0px;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.guards .border{
+    width: 40px;
+    height: 8px;
+    background-color: yellow;
+    border-radius: 10px;
+    margin: 10px 0px 20px 650px;
+}
+.guards p:nth-child(3){
+    text-align: center;
+    margin: 0px 50px 50px;
+}
+.guards .guardimg{
+    display: flex;
+    justify-content: space-evenly;
+}
+.guards .guardimg img{
+    height: 450px;
+    margin: 20px 0px;
+}
+.guards button{
+    padding: 15px 55px;
+    margin: 25px;
+    border: none;
+    background-color: yellow;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.guards button:hover{
+    border: 1px solid yellow;
+    background-color: rgba(0, 0, 0, 0);
+    color: yellow;   
+}
+.guards .guardname div:nth-child(1){
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 375px;
+    height: 100px;
+    color: white;
+    position: absolute;
+    left: 55px;
+    top: 618px;
+}
+.guards .guardname div:nth-child(2){
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 375px;
+    height: 100px;
+    color: white;
+    position: absolute;
+    left: 487px;
+    top: 618px;
+}
+.guards .guardname div:nth-child(3){
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 375px;
+    height: 100px;
+    color: white;
+    position: absolute;
+    left: 918px;
+    top: 618px;
+}
+.guards .guardname h1{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
